@@ -6,9 +6,6 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // define columns
-  },
-  {
     sequelize,
     timestamps: false,
     freezeTableName: true,
